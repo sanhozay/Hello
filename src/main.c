@@ -71,5 +71,6 @@ int main(int argc, char **argv)
     }
 
     printf("Hello %s!\n", name != NULL ? name : "World");
+    free(name);
     return EXIT_SUCCESS;
 }
