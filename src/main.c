@@ -50,7 +50,8 @@ static void usage()
 int main(int argc, char **argv)
 {
     static struct option longopts[] = {
-        {"name", required_argument, NULL, 'n'}
+        {"name", required_argument, NULL, 'n'},
+        {NULL, 0, NULL, 0}
     };
 
     int c;
